@@ -1,0 +1,11 @@
+$btnColor: #330;
+
+@mixin button {
+  color: $btnColor;
+  text-align: center;
+}
+
+@mixin button2 {
+  color: #301;
+  text-align: center;
+}

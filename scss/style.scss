@@ -1,0 +1,21 @@
+@use "inc";
+
+%temp {
+	background-color: white;
+	width: 200px;
+	heigh: 50px;
+}
+.sample {
+	@extend %temp;
+	background-color: red;
+}
+
+.test {
+  @extend %temp;
+  color: #302;
+}
+
+.btn {
+  @include inc.button;
+}
+

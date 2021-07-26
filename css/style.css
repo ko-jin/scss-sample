@@ -1,0 +1,18 @@
+.test, .sample {
+  background-color: white;
+  width: 200px;
+  heigh: 50px;
+}
+
+.sample {
+  background-color: red;
+}
+
+.test {
+  color: #302;
+}
+
+.btn {
+  color: #330;
+  text-align: center;
+}
